@@ -5,7 +5,6 @@ from bs4 import BeautifulSoup
 import streamlit as st
 import re
 import numpy as np
-from scipy.stats import poisson
 from streamlit_autorefresh import st_autorefresh
 from typing import Dict, List
 import time
