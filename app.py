@@ -880,9 +880,6 @@ def main() -> None:
     </div>
     """, unsafe_allow_html=True)
 
-    # ATUALIZAÇÃO AUTOMÁTICA A CADA 5 MINUTOS (300.000 ms)
-    count = st_autorefresh(interval=300000, limit=None, key="auto_refresh")
-
     # BOTÃO À ESQUERDA - NOVO ESTILO
     col_botoes = st.columns([1, 4, 1])
     with col_botoes[0]:  # Primeira coluna (esquerda)
@@ -972,4 +969,3 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
