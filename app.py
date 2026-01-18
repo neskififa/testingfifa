@@ -966,6 +966,3 @@ def main() -> None:
 
     st.caption(
         "Apresentação gerada pelo sistema FifaAlgorithm - Todos os direitos reservados | DESENVOLVEDOR - VAGNER")
-
-
-if __name__ == "__main__":
