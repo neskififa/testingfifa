@@ -963,6 +963,3 @@ def main() -> None:
             st.dataframe(df_res, use_container_width=True)
         else:
             st.info("📭 Nenhum resultado encontrado.")
-
-    st.caption(
-        "Apresentação gerada pelo sistema FifaAlgorithm - Todos os direitos reservados | DESENVOLVEDOR - VAGNER")
